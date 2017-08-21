@@ -40,7 +40,7 @@ class ArticlesController < ApplicationController
 		@article = Article.find(params[:id])
 		@article.destroy
 
-		redirect_to articles_path #we don't need a view, because when we destroy an article we just redirect to the index action.
+		redirect_to articles_path #we don't need a view, because when we destroy an article we just redirect to the index action.	
 	end
 
 
